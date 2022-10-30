@@ -498,11 +498,11 @@ namespace LiveSplit.HollowKnight {
                 case SplitName.SlyNailsage: shouldSplit = mem.PlayerData<bool>(Offset.killedNailsage); break;
                 case SplitName.SoulCatcher: shouldSplit = mem.PlayerData<bool>(Offset.gotCharm_20); break;
                 case SplitName.SoulEater: shouldSplit = mem.PlayerData<bool>(Offset.gotCharm_21); break;
-                case SplitName.SoulMaster: 
-                    shouldSplit = mem.PlayerData<bool>(Offset.killedMageLord); 
+                case SplitName.SoulMaster: shouldSplit = mem.PlayerData<bool>(Offset.killedMageLord); break;
+                case SplitName.SoulMasterPhase1End: 
+                    shouldSplit = mem.PlayerData<bool>(Offset.killedDummy); 
                     shouldSkip = mem.PlayerData<bool>(Offset.killedMageLord);
                     break;
-                case SplitName.SoulMasterPhase2: shouldSplit = mem.PlayerData<bool>(Offset.killedDummy); break;
                 case SplitName.SoulTyrant: shouldSplit = mem.PlayerData<bool>(Offset.mageLordDreamDefeated); break;
                 case SplitName.SpellTwister: shouldSplit = mem.PlayerData<bool>(Offset.gotCharm_33); break;
                 case SplitName.SporeShroom: shouldSplit = mem.PlayerData<bool>(Offset.gotCharm_17); break;
