@@ -366,6 +366,7 @@
         atBench,
         soulLimited,
         encounteredMegaJelly,
+        killedDummy,
 
         killsAngryBuzzer,
         killsBigBuzzer,
