@@ -335,6 +335,8 @@ namespace LiveSplit.HollowKnight {
         EnterSoulMaster,
         [Description("Soul Master Encountered (Boss)"), ToolTip("Splits when Soul Master is activated the first time as the gate closes")]
         SoulMasterEncountered,
+        [Description("Soul Master Phase 1 Ended"), ToolTip("Splits when finishing the first phase of Soul Master")]
+        SoulMasterPhase1End,
         [Description("Soul Tyrant (Boss)"), ToolTip("Splits when killing Soul Tyrant")]
         SoulTyrant,
         [Description("Soul Tyrant (Essence)"), ToolTip("Splits when getting Soul Tyrant essence")]
